@@ -1,2 +1,2 @@
 # gylt
-Get you life together
+Get your life together
