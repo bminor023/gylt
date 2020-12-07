@@ -1,0 +1,12 @@
+
+.column_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: .5rem;
+  align-items: start;
+}
+.column_item {
+  border-radius: .2rem;
+  background-color: #dfe3e6;
+  padding: .5rem;
+}
