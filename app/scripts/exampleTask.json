@@ -2,8 +2,8 @@
 "title":"homework",
 "scheduled":false,
 "daysPerWeek":3,
-"reccuring":true,
-"reccuringType":"weekly",
+"recurring":true,
+"recurringType":"weekly",
 "taskType":"stepped",
 "subTasks":["literature","history","band"],
 "completionType":"whole"
