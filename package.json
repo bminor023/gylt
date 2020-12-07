@@ -1,0 +1,25 @@
+{
+  "name": "gylt",
+  "version": "1.0.0",
+  "description": "Get your life together",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bminor023/gylt.git"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "author": "Bmin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bminor023/gylt/issues"
+  },
+  "homepage": "https://github.com/bminor023/gylt#readme",
+  "dependencies": {
+    "electron": "^11.0.3"
+  }
+}
