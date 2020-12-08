@@ -1,0 +1,20 @@
+ok so just made this text file to think through exactly what I need to do and how I'm going to do it.
+We have tasks that need to be completed. That means we are going to need to check every once and a while whether somethings happening.
+There needs to be a system that looks what you have for this day and this week and further and helps you get on your feet if youre doing nothing on your computer.
+That means we need a clock system, a notification system, a logic system, and a save system. Maybe I should actually make a task class dang it.
+
+Clock is easy. setInterval is here to save the day. (Note: setInterval(func,milliseconds))
+
+Save system shouldn't be too hard. I'd like to do a little bit of compression or something idk. But load up on enter and autosave every once and a while.
+
+Notification system. Just a tool for the logic system. Electron has some good stuff on that.
+
+Logic system is the hard part.
+    - It grabs the tasks and projects from the save file.
+    - It should try and motivate the user to work for a certain amount of time before taking a break. 
+     + to track this the user should check in when starting a task.
+     + logic unit will track if the user has completed the task and notify them if thats true.
+      ~ once the task is completed the logic unit will wait a little before suggesting another task.
+    - The logic system should figure out how much time is left in the day/week and calculate how dire a task needs to be done.
+     + It should also calculate how productive the user has been over the course of the day.
+     + based on these two calculation it should decide when to encourage user to do different tasks.

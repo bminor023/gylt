@@ -1,4 +1,3 @@
-const electron = require('electron');
-const path = require('path');
-
-var Task 
+document.getElementById("TestButton").addEventListener("click",()=> {
+    window.api.test()
+})
